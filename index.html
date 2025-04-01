@@ -1,108 +1,19 @@
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <title>Elastic Beanstalk</title>
-    <style>
-      body {
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        font-size:14px;
-        -moz-transition-property: text-shadow;
-        -moz-transition-duration: 4s;
-        -webkit-transition-property: text-shadow;
-        -webkit-transition-duration: 4s;
-        text-shadow: none;
-      }
-      body.blurry {
-        -moz-transition-property: text-shadow;
-        -moz-transition-duration: 4s;
-        -webkit-transition-property: text-shadow;
-        -webkit-transition-duration: 4s;
-        text-shadow: #fff 0px 0px 25px;
-      }
-      a {
-        color: #55aaff;
-      }
-      .textColumn, .linksColumn {
-        padding: 2em;
-      }
-      .textColumn {
-        position: absolute;
-        top: 0px;
-        right: 50%;
-        bottom: 0px;
-        left: 0px;
-
-        text-align: right;
-        padding-top: 12em;
-        background-color: green;
-
-      }
-      .textColumn p {
-        width: 75%;
-        float:right;
-      }
-      .linksColumn {
-        position: absolute;
-        top:0px;
-        right: 0px;
-        bottom: 0px;
-        left: 50%;
-
-        background-color: #33342D;
-      }
-
-      h1 {
-        color: #33342D;
-        font-size: 500%;
-        font-weight: normal;
-        margin-bottom: 0em;
-      }
-      h2 {
-        font-size: 200%;
-        font-weight: normal;
-        margin-bottom: 0em;
-      }
-      ul {
-        padding-left: 1em;
-        margin: 0px;
-      }
-      li {
-        margin: 1em 0em;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="textColumn">
-      <h1> Congratulations Aditya You have done this Project.....! </h1>
-      <p>Your first AWS Elastic Beanstalk Node.js application is now running on your own dedicated environment in the AWS Cloud</p>
-    </div>
-    <div class="linksColumn">
-      <h2>What's Next?</h2>
-     <h1> Aditya Sonwane</h1>
-      <ul>
-        <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html">AWS Elastic Beanstalk overview</a></li>
-        <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.loggingS3.title.html">Working with Logs</a></li>
-      </ul>
-    </div>
-  </body>
-</html>
- -->
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Aditya Sonwane - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f4f4f4;
             color: #333;
-            padding: 50px;
+            padding: 20px;
+            margin: 0;
         }
         .container {
-            max-width: 600px;
+            max-width: 800px;
             margin: auto;
             background: white;
             padding: 20px;
@@ -113,23 +24,81 @@
             color: #0073e6;
             text-decoration: none;
         }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skill {
+            background: #0073e6;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 15px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Aditya Sonwane</h1>
         <p>DevOps Engineer | Cloud Enthusiast | Automation Expert</p>
+        
         <h2>About Me</h2>
-        <p>Experienced in CI/CD, AWS, Kubernetes, and Infrastructure as Code.</p>
+        <p>I am a DevOps Engineer with 2.6 years of experience at Infosys, specializing in cloud infrastructure, automation, and CI/CD solutions. I have expertise in AWS, GCP, and Microsoft Azure, and I am GCP certified.</p>
+        
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">AWS</span>
+            <span class="skill">GCP</span>
+            <span class="skill">Azure</span>
+            <span class="skill">Kubernetes</span>
+            <span class="skill">Terraform</span>
+            <span class="skill">Jenkins</span>
+            <span class="skill">Docker</span>
+            <span class="skill">Python</span>
+            <span class="skill">Go</span>
+            <span class="skill">Java</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Splunk</span>
+            <span class="skill">ArgoCD</span>
+            <span class="skill">CI/CD Pipelines</span>
+        </div>
+        
         <h2>Projects</h2>
         <ul>
             <li>Automated CI/CD Pipeline Deployment</li>
             <li>3-Tier Web Application on AWS</li>
             <li>Infrastructure Automation with Terraform</li>
+            <li>Monitoring & Logging with Splunk and Prometheus</li>
+            <li>Static Website Deployment using AWS S3 & CloudFront</li>
+            <li>Kubernetes Cluster Setup on AWS EC2 using Kind</li>
+            <li>Automating Documentation with MkDocs & GitHub Pages</li>
         </ul>
+        
+        <h2>Certifications</h2>
+        <ul>
+            <li>Google Cloud Certified</li>
+            <li>Microsoft Certified</li>
+            <li>CKAD (In Progress)</li>
+        </ul>
+        
         <h2>Contact</h2>
         <p>Email: aditya@example.com</p>
         <p>LinkedIn: <a href="#">linkedin.com/in/adityasonwane</a></p>
+        <p>GitHub: <a href="#">github.com/adityasonwane</a></p>
     </div>
 </body>
 </html>
